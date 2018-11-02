@@ -1,1 +1,23 @@
-Co je GIT :) Tady postupně popíšu a Vy si to zkusíte.
+Git je hrozně těžké pochopit na uplném začátku
+
+Pro někoho to můžu být nudné, ale musím to napsat všechno tedy
+
+Je Verze kodu(souborů) na serveru.. Pomocí git clone si je stáhnete na lokální disk.
+Ted budete mít nějákou práci klidně si představte tou prací jenom změnit řádku v textovém
+filu a nebo změnit kousek kodu. V tu chvíli tady tu upravu chcete ukázat světu, tedy ostatním 
+lidem.. pokud pracujete v intellij, tak si dáte version control a pravým commit. Pokud bychom mluvili jenom o příkazové řádce ze které jste commitovali tak píšete git commit -m "popis změny" v tu chvíli se vám vytvoří něco co se nazívá commit, představte si to jako Váš balík změn a ten je zatím jenom u Vás na disku, na server ho dostanete až pomocí git push.. 
+
+Život s gitem je tedy následující
+
+git pull (šipka v intellij) tím začínáte vždy den, stáhnete si změny ostatních lidí ze serveru
+
+pracuji na něčem změním cokoliv
+
+Občas vytvoříte nové soubory, které git nezná postup je:
+git add . ta tečka tam není omylem je to pro vše, stejné je git add --all 
+
+potom
+
+git commit -m "popis změny" Vaše změny se zapíšou k Vám na disk pro GIT
+
+git push odesílám své změny na server.
