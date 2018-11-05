@@ -1,0 +1,4 @@
+Scénář, jak bych to viděl. Pokud se někomu něco nebude líbit, tak dopište a commit push 
+
+Dokonce roku nebudeme vůbec dělat na stránkách. Projdeme si základ. Uděláme si testovací applikace, kde si zkusíme všechno kde a proč je.
+Já si to zopakuji, Vy se to naučíte. Potom si sedneme, zkusíme se pobavit co bychom na stránkách chtěli, uděláme si návrhy, modely atd a postupně to začneme tvořit. 
