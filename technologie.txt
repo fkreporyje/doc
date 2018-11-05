@@ -1,0 +1,32 @@
+Seznam technologií. 
+Obecně se bude dělit na obecné,front-end,back-end a Testy
+
+Jako další cvičení gitu, každý napište za technologii své jméno, pokud Vás bude zajímat a budete v ní chtít vyvíjet, pak se to podle trochu upraví
+
+Obecně
+Zde patří důležité věci jako slack, trello atd, o to se bude starat Jindra.
+Git - repositář a technologie, která bude držet náš vývoj ucelený. Ö to se budu primárně starat já, aby se nám z toho nestalo peklo.
+
+Front-end
+Html- Nevím jestli Thymeleaft vs JSP. Musíme napsat samotné html stránky, které se potom budou designovat, stylovat v css a rozhejbávat pomocí scriptu
+Design - Zde neuvedu program, protože tomu nerozumím. Budeme potřebovat někoho, kdo bude umět vytvořit například, logo na míru pro náš web, různé rohy stránek atd.
+CSS - Bootstrap, velmi dobrá technologie, která umí udělat to základní rozvržení stránky (kde je menu, kde jsou kraje atd)
+Scripty - JavaScript a Jquery, tady to se stará na straně uživatele o všechny různé grafické změny.
+
+Back-end 
+Java - SpringBoot, technologie, která se nám bude starat o bezpečnost, spojení databáze, vykreslování frontendu, vlastně o vše.
+SpringBoot- Applikační Framework. Spring jako takový, je vlastně vrstva, nad javoEE (Enterprise editon). U Springu budeme asi trávit nejvíce času, není čeho se bát, 
+je to super všechno popsaný a návodů je plný internet.
+Maven - maven je balíčkovací framework. Více v maven.txt
+
+
+Pod Javu
+
+
+DB - Zde zatím vůbec nevím. Budeme někde potřebovat uložit data, podle toho co se rozhodneme, že tam vlastně budeme chtít mít :) 
+
+Testy
+Mám ambice k tomu napsat Integrační testy. Tady to je asi nejsložitější věc, která má tisíce otázek.   
+
+
+
