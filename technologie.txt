@@ -7,7 +7,7 @@ Obecně
 *
 
 Back-end
-* Java + SpringBoot (Jindra, Rejža)
+* Java + SpringBoot (Jindra, Rejža, Tomáš)
 * Maven (Jindra, Rejža)
 *
 
@@ -16,7 +16,7 @@ Front-end
 * CSS - Bootstrap (Jindra, Rejža)
 * JSP (Jindra?, )
 * Thymeleaft
-** Design - Asi dopíše Tomáš Svoboda
+** Design (Tomáš)
 ** Program pro fireframe a kreslené datové architektury (Jindra, )
 
 Ostatní
