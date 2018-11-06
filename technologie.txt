@@ -7,8 +7,8 @@ Obecně
 *
 
 Back-end
-* Java + SpringBoot (Jindra, Honza)
-* Maven (Jindra, Honza)
+* Java + SpringBoot (Jindra, Rejža)
+* Maven (Jindra, Rejža)
 *
 
 Front-end
