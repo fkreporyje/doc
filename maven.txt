@@ -1,0 +1,14 @@
+Tak co je Maven? Nejjednodušší je to hodit do googlu, protože to vlastně opisuji i já. 
+
+Obecně si představte to, že JDK obsahuje pár předpřipravených knihoven, které máte automaticky.
+Ale ted si představte, že třeba chcete používat Spring nebo databázy a nebo knihovnu na počasí, zkrátka jakoukoliv funkcionalitu co si vzpomenete.
+
+Uvedu fiktivní příklad, v javě chcete aby Vaše applikace uměla spočítat kvadratickou rovnici, máte dvě možnosti, bud si to napíšete samy a nebo víte, 
+že někdo už to sepsal. Tedy, že někde na netu je knihovna kvadra.jar (všechny knihovny v javě končí jar). Tak a ted vy si chcete do své applikace 
+tady tu knihovnu přidat a udělat jenom to, že spočti rovnici a vložíte proměné, ale ted ptáte, jak já tu knihovnu fyzicky přidám, no starý a špatný způsob je, 
+že jí stáhnete z netu na svůj komp a dáte jí do složky /lib java ví, že má čumět do složky lib, tam jí najde a pokud jí někde v kodu potřebuje, tak je schopná jí zkusit
+otevřít a najít funkcionalitu.
+Správná cesta ovšem je, používat maven, jeho definice pro projekt je v souboru pom.xml (koukněte do našeho helloworld, už ho tam budete mít). 
+Zatím absolutně netřeba chápat obsah, jenom se podívte jak jsou tam <dependencies> a v tom vložené cizí knihovnu, maven totiž na základě tady těch třeba řádků je schopný
+najít a stáhnout sám jarka z netu, navíc umí sestrojit Vaše jarko, umístit knihovny, Vaše classy a všechny potřebné soubory tam, kde je JVM, která se stará o běh applikace
+potřebuje. Zkrátka vše udělá za Vás.
