@@ -1,6 +1,27 @@
 Seznam technologií. 
 Obecně se bude dělit na obecné,front-end,back-end a Testy
 
+Obecně
+* Slack
+* Trello
+*
+
+Back-end
+* Java + SpringBoot (Jindra, )
+* Maven (Jindra, )
+*
+
+Front-end
+* HTML (Jindra, )
+* CSS - Bootstrap (Jindra, )
+* JSP (Jindra?, )
+* Thymeleaft
+** Design - Asi dopíše Tomáš Svoboda
+** Program pro fireframe a kreslené datové architektury (Jindra, )
+
+Ostatní
+* Git
+
 Jako další cvičení gitu, každý napište za technologii své jméno, pokud Vás bude zajímat a budete v ní chtít vyvíjet, pak se to podle trochu upraví
 
 Obecně
