@@ -1,0 +1,12 @@
+Ahoj, Zkusím tu ještě lépe napsat, co jsem se snažil vysvětlit na FB.
+
+Tedy každý program má nějáké vrstvy, ty základní jsou vstup-program-výstup.
+
+A ta vrstva programu se z pohledu Javy a Springu hlavně ještě dělí na další vrstvy.. Základní Controller -> Service -> Dao
+Příklad máme webovku. A pro totální jednoduchost ta webovka bude slovník AJ-CS, který si bude tvořit komunita.
+Takže dejme tomu, pro jednoduchost, budeme přidávat dvojci anglické slovo a český překlad a potom se budeme moc zavolat s českým slovem, aby nám to vrátilo anglický překlad.
+Vemem to jenom rozhraním, tedy bez logiky.. Co tedy potřebuji, první věc je vrstva Controller. 
+Taky Budeme mít třeba Controller, ten příjme požadavek třeba doména/addNew?AJ=Doors&CZ=Dveře
+
+Controller ví kam směřovat addNew a umí si vybrat string pod AJ a CZ.. Ted volá Serviní vrstvu ta je vždy zodpovědná za veškerou logiku. A ta volá Dao (DataAccessObject), 
+která je zodpovědná za komunikaci s databází.
